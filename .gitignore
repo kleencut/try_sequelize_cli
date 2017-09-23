@@ -57,3 +57,4 @@ typings/
 # dotenv environment variables file
 .env
 
+../../try_sequelize_cli/.DS_Store

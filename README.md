@@ -84,7 +84,7 @@ module.exports = {
   down: (queryInterface, Sequelize) => {
     queryInterface.removeColumn('Tasks', 'user_id')
   }
-};
+}
 
 ```
 
@@ -114,7 +114,7 @@ module.exports = {
   down: (queryInterface, Sequelize) => {
     queryInterface.removeConstraint('Tasks','task_user_fk')
   }
-};
+}
 ```
 
 Run and apply these migrations.
